@@ -25,3 +25,11 @@ export default {
 		}),
 	],
 } satisfies Config;
+
+
+plugins: [
+	skeleton({
+		themes: { preset: [ "gold-nouveau" ] }
+	})
+]
+
